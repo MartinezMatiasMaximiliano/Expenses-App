@@ -117,6 +117,18 @@ body {
     border: 1px solid #fff;
 }
 
+/*Button*/
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/*Hyperlink*/
+.no-a-decoration, .no-a-decoration:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 /*Widget*/
 .widget {
     border-radius: 1rem;
